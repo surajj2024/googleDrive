@@ -24,29 +24,25 @@ This project is a Google Drive clone built using React. It includes authenticati
 
 1. Clone the repository to your local machine.
    ```bash
-   git clone https://github.com/your-username/google-drive-clone.git
+   [git clone https://github.com/your-username/google-drive-clone.git](https://github.com/surajj2024/googleDrive.git)
    ```
 
-2. Navigate to the project directory.
-   ```bash
-   cd google-drive-clone
-   ```
 
-3. Install dependencies.
+2. Install dependencies.
    ```bash
    npm install
    ```
 
-4. Set up Firebase Authentication and Storage in your Firebase project.
+3. Set up Firebase Authentication and Storage in your Firebase project.
 
-5. Configure Firebase credentials in the project.
+4. Configure Firebase credentials in the project.
 
-6. Start the development server.
+5. Start the development server.
    ```bash
    npm start
    ```
 
-7. Open your browser and visit `http://localhost:3000` to view the application.
+6. Open your browser and visit `http://localhost:3000` to view the application.
 
 ## How to Use
 
@@ -62,8 +58,5 @@ This project is a Google Drive clone built using React. It includes authenticati
 
 ## Credits
 
-This project was created by [Your Name]. Special thanks to [mention anyone or any resource you'd like to credit].
+This project was created by Suraj kummar. Special thanks to @tajammul1996.
 
-## License
-
-This project is licensed under the [MIT License](LICENSE).

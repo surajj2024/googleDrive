@@ -1,15 +1,19 @@
-import firebase from "firebase";
+import firebase from "firebase/app";
+import "firebase/firestore";
+import "firebase/storage";
+import "firebase/auth";
 
-
+// Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCp_DEImpsoc5lD2iqLvNQBWboKZQS6dms",
-  authDomain: "drive-clone-30e43.firebaseapp.com",
-  projectId: "drive-clone-30e43",
-  storageBucket: "drive-clone-30e43.appspot.com",
-  messagingSenderId: "177292931150",
-  appId: "1:177292931150:web:32ca646e6d8b692df3131f",
+  apiKey: "AIzaSyCGwXtHqKuR-irwAeMOLi-xxAFNkq65ZD4",
+  authDomain: "drive-f0479.firebaseapp.com",
+  projectId: "drive-f0479",
+  storageBucket: "drive-f0479.appspot.com",
+  messagingSenderId: "447461514006",
+  appId: "1:447461514006:web:8a40963eb4b3947925ce37",
 };
 
+// Initialize Firebase
 const firebaseApp = firebase.initializeApp(firebaseConfig);
 const db = firebaseApp.firestore();
 const storage = firebase.storage();

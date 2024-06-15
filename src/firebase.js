@@ -5,12 +5,13 @@ import "firebase/auth";
 
 // Firebase configuration
 const firebaseConfig = {
-  apiKey: "AIzaSyCGwXtHqKuR-irwAeMOLi-xxAFNkq65ZD4",
-  authDomain: "drive-f0479.firebaseapp.com",
-  projectId: "drive-f0479",
-  storageBucket: "drive-f0479.appspot.com",
-  messagingSenderId: "447461514006",
-  appId: "1:447461514006:web:8a40963eb4b3947925ce37",
+  apiKey: "AIzaSyCeiiTi34w_3DjokA4DK6d-odtjXC5WSOE",
+  authDomain: "drive-d25fc.firebaseapp.com",
+  projectId: "drive-d25fc",
+  storageBucket: "drive-d25fc.appspot.com",
+  messagingSenderId: "894826561468",
+  appId: "1:894826561468:web:8d51f99cd7d6badbe635b9",
+  measurementId: "G-Y69PGPS48C",
 };
 
 // Initialize Firebase

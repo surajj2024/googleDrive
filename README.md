@@ -1,62 +1,8 @@
-# Google Drive Clone with Firebase Authentication
+# React + Vite
 
-This project is a Google Drive clone built using React. It includes authentication using Firebase, allowing users to sign in with their Google main ID. Users can upload files, which are stored in Firebase Storage. Additional features such as a trash folder, download option, and a responsive sidebar menu are also included.
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-## Features
+Currently, two official plugins are available:
 
-1. **Firebase Authentication**: Users can sign in with their Google main ID using Firebase Authentication.
-
-2. **File Upload**: Users can upload files to the application, and they will be stored securely in Firebase Storage.
-
-3. **Trash Folder**: Deleted files are moved to the trash folder, allowing users to recover them if needed.
-
-4. **Download Option**: Users can download files directly from the interface.
-
-5. **Responsive Sidebar Menu**: The sidebar menu adjusts according to the screen size, providing a seamless experience across devices.
-
-## Technologies Used
-
-- React: A JavaScript library for building user interfaces.
-- Firebase: Provides authentication and storage services.
-- CSS: Styling the components and making the interface visually appealing.
-
-## Setup Instructions
-
-1. Clone the repository to your local machine.
-   ```bash
-   [git clone https://github.com/your-username/google-drive-clone.git](https://github.com/surajj2024/googleDrive.git)
-   ```
-
-
-2. Install dependencies.
-   ```bash
-   npm install
-   ```
-
-3. Set up Firebase Authentication and Storage in your Firebase project.
-
-4. Configure Firebase credentials in the project.
-
-5. Start the development server.
-   ```bash
-   npm start
-   ```
-
-6. Open your browser and visit `http://localhost:3000` to view the application.
-
-## How to Use
-
-- Upon opening the application, users will be prompted to sign in with their Google main ID.
-- Once authenticated, users can upload files using the upload button.
-- Uploaded files will be stored securely in Firebase Storage.
-- Navigate through folders by clicking on them.
-- Use the sidebar menu to access different sections such as Trash.
-- Delete files by right-clicking on them and selecting the option.
-- Files deleted will be moved to the Trash folder.
-- Download files by clicking on the download icon next to them.
-- Enjoy the responsive design that adapts to different screen sizes seamlessly.
-
-## Credits
-
-This project was created by Suraj kummar. Special thanks to @tajammul1996.
-
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh

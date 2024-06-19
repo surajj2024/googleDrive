@@ -1,0 +1,171 @@
+.sidebar{
+    margin-top: 10px;
+}
+
+.sidebar_btn button {
+    background-color: transparent;
+    border: 1px solid lightgray;
+    display: flex;
+    align-items: center;
+    border-radius: 40px;
+    padding: 5px 10px;
+    margin-left: 20px;
+    box-shadow: 2px 2px 2px #ccc;
+    cursor: pointer;
+}
+.sidebar_btn button span {
+    font-size: 16px;
+    margin-right: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.sidebar_options {
+    margin-top: 10px;
+}
+.sidebar_option {
+    display: flex;
+    align-items: center;
+    padding: 8px 20px;
+    border-radius: 0px 20px 20px 0px ;
+}
+.sidebar_option:hover {
+    background-color: whitesmoke;
+    cursor: pointer;
+}
+.sidebar_option span{
+    margin-left: 15px;
+    font-weight: 500;
+    font-size: 13px;
+    color: rgb(78,78,78);
+}
+.sidebar_option-active{
+    background-color: #e8f0fe;
+}
+.sidebar_option-active span, .sidebar_option-active svg{
+    color: #1367d2;
+}
+.progress_bar{
+    padding: 0px 20px;
+}
+.progress_bar span{
+    display: block;
+    font-size: 13px;
+    color: #333;
+}
+.small_sidebar{
+    width: 5%;
+}
+.small_sidebar span{
+    display: none;
+}
+.small_sidebar .sidebar_btn button {
+    background-color: transparent;
+    border: none;
+    display: flex;
+    align-items: center;
+    border-radius: 0px;
+    padding: 5px 15px;
+    margin-left: 0px;
+    box-shadow: none;
+    cursor: pointer;
+}
+.small_sidebar .sidebar_options .progress_bar{
+ display: none;   
+}
+
+.modal__pop{
+    top: 50%;
+    background-color: #fff;
+    width: 500px;
+    margin: 0px auto;
+    position: relative;
+    transform: translateY(-50%);
+    padding: 10px;
+    border-radius: 10px;
+}
+.modalHeading {
+    text-align: center;
+    border-bottom: 1px solid lightgray;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.modalHeading button{
+    background-color: transparent;
+    width: 30px;
+    font-size: 16px;
+    border: 0;
+    outline: 0;
+    margin: 0;
+    padding: 0;
+    height: 30px;
+    text-align: center;
+    position: relative;
+    left: 20%;
+    bottom: 10%;
+    cursor: pointer;
+    color: lightgrey;
+    transition: all .2s;
+}
+.modalHeading button:hover{
+    color: red;
+}
+.file_upload{
+    height: 50px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 40px;
+    justify-content: center;
+    align-self: center;
+    width: 100%;
+}
+input.submit_btn{
+    width: 100%;
+    background-color: #2381fa;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 16px;
+    /* letter-spacing: 3px; */
+    border: 0;
+    outline: 0;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    height: 40px;
+    text-align: center;
+}
+.uploading{
+    width: 95%;
+    text-align: center;
+    /* height: 50px; */
+    background-color: green;
+    color: white;
+    font-size: 16px;
+    padding: 10px 0;
+    margin: 20px 10px;
+    border-radius: 5px;
+}
+@media screen and (min-width: 240px) and (max-width: 900px){
+    .small_sidebar{
+        width: 15%;
+    }
+    .modal__pop{
+        top: 20%;
+    background-color: #fff;
+    width: 250px;
+    margin: 0px 20px;
+    position: relative;
+    transform: translateY(0%);
+    padding: 10px;
+    border-radius: 10px;
+    }
+    .modalHeading{
+        height: 50px;
+    }
+    .modalHeading button{
+        top: -2%;
+        left: 0%;
+    }
+}
